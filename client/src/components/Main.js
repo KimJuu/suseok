@@ -11,31 +11,31 @@ class Main extends Component {
               <img src={require("../images/suseok/suseok1.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
-            <Link to="../images/suseok/suseok2.jpg">
+            <Link to={require("../images/suseok/suseok2.jpg")}>
               <img src={require("../images/suseok/suseok2.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
           </div>
           <div>
-            <Link to="../images/suseok/suseok1.jpg">
+            <Link to={require("../images/suseok/suseok1.jpg")}>
               <img src={require("../images/suseok/suseok1.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
-            <Link to="../images/suseok/suseok1.jpg">
+            <Link to={require("../images/suseok/suseok1.jpg")}>
               <img src={require("../images/suseok/suseok1.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
-            <Link to="../images/suseok/suseok2.jpg">
+            <Link to={require("../images/suseok/suseok2.jpg")}>
               <img src={require("../images/suseok/suseok2.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
           </div>
           <div>
-            <Link to="../images/suseok/suseok1.jpg">
+            <Link to={require("../images/suseok/suseok1.jpg")}>
               <img src={require("../images/suseok/suseok1.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
-            <Link to="../images/suseok/suseok2.jpg">
+            <Link to={require("../images/suseok/suseok2.jpg")}>
               <img src={require("../images/suseok/suseok2.jpg")} alt="" />
               <h3>Lorem ipsum dolor sit amet</h3>
             </Link>
