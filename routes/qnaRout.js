@@ -15,9 +15,9 @@ router.post('/', (req, res, next) => {
         var dbconnect_Module = require('./dbconnect_Module');
     
         //Mysql 쿼리 호출 정보 입력
-        req.body.mapper = 'SwToolsMapper';//mybatis xml 파일명
+        req.body.mapper = 'qnaMapper';//mybatis xml 파일명
         req.body.crud = 'select';//select, insert, update, delete 중에 입력
-        req.body.mapper_id = 'selectSwToolsList';
+        req.body.mapper_id = 'selectQnaList';
         
         router.use('/', dbconnect_Module);
         next('route')
@@ -31,9 +31,9 @@ router.post('/', (req, res, next) => {
         var dbconnect_Module = require('./dbconnect_Module');
     
         //Mysql 쿼리 호출정보 입력
-        req.body.mapper = 'SwToolsMapper';//mybatis xml 파일명
+        req.body.mapper = 'QnaMapper';//mybatis xml 파일명
         req.body.crud = 'insert';//select, insert, update, delete 중에 입력
-        req.body.mapper_id = 'insertSwToolsInfo';
+        req.body.mapper_id = 'insertQnaInfo';
         
         router.use('/', dbconnect_Module);
         next('route')
