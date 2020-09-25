@@ -10,11 +10,11 @@ router.use(bodyParser.urlencoded({ extended: true }));
 const pool  = mysql.createPool({
   connectionLimit: 66,
   waitForConnections: true,
-  host: "react200.cinvalghkckt.ap-northeast-2.rds.amazonaws.com",
+  host: "database-1.cly2cf6hn9ds.us-east-2.rds.amazonaws.com",
   port: "3306",
-  database: 'react',
+  database: 'suseok',
   user: "admin",
-  password: "react200RDS",
+  password: "lwnehd10",
 });
 
 router.post("/", (req, res) => {
